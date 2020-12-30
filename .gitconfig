@@ -1,0 +1,7 @@
+[user]
+	email = email@email.co.co
+	name = myname
+[core]
+	editor = vim
+[color]
+	ui = true
