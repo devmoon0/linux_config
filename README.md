@@ -15,7 +15,11 @@ sudo apt install build-essential
 sudo apt install cmake libssl-dev
 sudo apt autoremove
 sudo apt install libboost-all-dev
+sudo su
+echo export HISTTIMEFORMAT=\"[%F %T] \" > /etc/profile.d/bash_history.sh
+source /etc/profile
 ```
+
 
 ### 2. vim settings
 .vimrc
